@@ -1,0 +1,45 @@
+<div class="viewer-layout">
+  <div class="extra">
+    <div class="tabs-container">
+      <button class="tab-button">Documento</button>
+
+      <div class="download-buttons">
+        <span class="download-label">Descargar:</span>
+        <button
+          class="btn-download btn-pdf"
+          (click)="downloadDocument(documents.pdf, 'comprobante.pdf')"
+          [disabled]="!documents.pdf"
+          title="Descargar PDF"
+        >
+          PDF
+        </button>
+        <button
+          class="btn-download btn-xml"
+          (click)="downloadDocument(documents.xml, 'documento.xml')"
+          [disabled]="!documents.xml"
+          title="Descargar XML"
+        >
+          XML
+        </button>
+        <button
+          class="btn-download btn-cdr"
+          (click)="downloadDocument(documents.cdr, 'cdr.xml')"
+          [disabled]="!documents.cdr"
+          title="Descargar CDR"
+        >
+          CDR
+        </button>
+      </div>
+    </div>
+    <div class="pdf-viewer-container">
+      @if (documents.pdf) {
+      <iframe [src]="documents.pdf" class="pdf-viewer"></iframe>
+      } @else {
+      <div class="loading-message">
+        <div class="spinner-small"></div>
+        <p>Cargando PDF...</p>
+      </div>
+      }
+    </div>
+  </div>
+</div>
