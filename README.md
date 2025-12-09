@@ -37,7 +37,7 @@ Para acceder a la interfaz de visualización de comprobante utilizar las siguien
 
 - Seguido tendremos acceso a la interfaz.
 
-### 2. Navegación en la interface de visualización de comprobantes.
+### 2. Navegación en la interfaz de visualización de comprobante.
 - **Inicio:** Al ingresar encontrará el archivo .pdf en una ventana de visualización previa.
 - **Descargas:** En la parte superior derecha del documento, tendrá los botenes de descarga del archivo según el formato que desee.
 - **Cerrar Sesión:** Una vez finalizado sus operaciones tendrá la opción de cerrar sesión el cual está ubicado en la parte superior derecha de la página.
