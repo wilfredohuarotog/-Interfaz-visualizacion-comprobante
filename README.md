@@ -28,3 +28,19 @@ npm install
 ```bash
 npm start
 ```
+## Uso
+
+### 1. Autenticación
+Para acceder a la interfaz de visualización de comprobante utilizar las siguientes credenciales:
+- **Usuario:** `20111193035`.
+- **Contraseña:** `61a77b6fda77c3a2d6b28930546c86d7f749ccf0bd4bad1e1192f13bb59f0f30`.
+
+- Seguido tendremos acceso a la interfaz.
+
+### 2. Navegación en la interface de visualización de comprobantes.
+- **Inicio:** Al ingresar encontrará el archivo .pdf en una ventana de visualización previa.
+- **Descargas:** En la parte superior derecha del documento, tendrá los botenes de descarga del archivo según el formato que desee.
+- **Cerrar Sesión:** Una vez finalizado sus operaciones tendrá la opción de cerrar sesión el cual está ubicado en la parte superior derecha de la página.
+
+
+  
