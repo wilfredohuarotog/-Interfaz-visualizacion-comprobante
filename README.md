@@ -1,6 +1,6 @@
 # Interfaz de visualización de comprobante: 
 
-Desarrollo de una interfaz de autenticación y de visualización de comprobante con Angular.
+Desarrollo de una interfaz de autenticación y visualización de comprobante con Angular.
 
 ### Interfaz de autenticación (Login)
 
